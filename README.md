@@ -7,3 +7,9 @@
 
 ## 確認URL
 
+- v7.6.10
+  - [UI](https://takanorionuma.github.io/storybook-parts/v7.6.10/ui/)
+  - [Sandbox](https://takanorionuma.github.io/storybook-parts/v7.6.10/sandbox/)
+- v8.0.0-alpha.15
+  - [UI](https://takanorionuma.github.io/storybook-parts/v8.0.0-alpha.15/ui/)
+  - [Sandbox](https://takanorionuma.github.io/storybook-parts/v8.0.0-alpha.15/sandbox/)

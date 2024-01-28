@@ -1,0 +1,1 @@
+{"version":3,"file":"preview-73c648b3.js","sources":["../../node_modules/@storybook/addon-viewport/dist/preview.js"],"sourcesContent":["// src/preview.ts\nvar globals = { viewport: \"reset\", viewportRotated: false };\n\nexport { globals };\n"],"names":["globals"],"mappings":"AACG,IAACA,EAAU,CAAE,SAAU,QAAS,gBAAiB,EAAK","x_google_ignoreList":[0]}

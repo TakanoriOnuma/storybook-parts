@@ -1,0 +1,3292 @@
+{
+  "modules": [
+    {
+      "id": "./ui/sb-preview/runtime.js",
+      "name": "./ui/sb-preview/runtime.js",
+      "reasons": [
+        {
+          "moduleName": "./ui/iframe.html"
+        }
+      ]
+    },
+    {
+      "id": "/virtual:/@storybook/builder-vite/vite-app.js",
+      "name": "/virtual:/@storybook/builder-vite/vite-app.js",
+      "reasons": [
+        {
+          "moduleName": "./ui/iframe.html"
+        }
+      ]
+    },
+    {
+      "id": "/virtual:/@storybook/builder-vite/setup-addons.js",
+      "name": "/virtual:/@storybook/builder-vite/setup-addons.js",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/vite-app.js"
+        }
+      ]
+    },
+    {
+      "id": "/virtual:/@storybook/builder-vite/storybook-stories.js",
+      "name": "/virtual:/@storybook/builder-vite/storybook-stories.js",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/vite-app.js"
+        }
+      ]
+    },
+    {
+      "id": "./ui/.storybook/preview.tsx",
+      "name": "./ui/.storybook/preview.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/vite-app.js"
+        },
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/vite-app.js"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/blocks/Anchor.stories.tsx",
+      "name": "./ui/blocks/src/blocks/Anchor.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/blocks/ArgTypes.stories.tsx",
+      "name": "./ui/blocks/src/blocks/ArgTypes.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/blocks/Canvas.stories.tsx",
+      "name": "./ui/blocks/src/blocks/Canvas.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/blocks/Controls.stories.tsx",
+      "name": "./ui/blocks/src/blocks/Controls.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/blocks/Description.stories.tsx",
+      "name": "./ui/blocks/src/blocks/Description.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/blocks/DocsPage.stories.tsx",
+      "name": "./ui/blocks/src/blocks/DocsPage.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/blocks/Markdown.stories.tsx",
+      "name": "./ui/blocks/src/blocks/Markdown.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        },
+        {
+          "moduleName": "./ui/blocks/src/components/DocsPage.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/blocks/Primary.stories.tsx",
+      "name": "./ui/blocks/src/blocks/Primary.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/blocks/Source.stories.tsx",
+      "name": "./ui/blocks/src/blocks/Source.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        },
+        {
+          "moduleName": "./ui/blocks/src/blocks/Canvas.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/blocks/Stories.stories.tsx",
+      "name": "./ui/blocks/src/blocks/Stories.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/blocks/Story.stories.tsx",
+      "name": "./ui/blocks/src/blocks/Story.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/blocks/Unstyled.mdx",
+      "name": "./ui/blocks/src/blocks/Unstyled.mdx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/components/ArgsTable/ArgRow.stories.tsx",
+      "name": "./ui/blocks/src/components/ArgsTable/ArgRow.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        },
+        {
+          "moduleName": "./ui/blocks/src/components/ArgsTable/ArgsTable.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/components/ArgsTable/ArgsTable.stories.tsx",
+      "name": "./ui/blocks/src/components/ArgsTable/ArgsTable.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        },
+        {
+          "moduleName": "./ui/blocks/src/components/ArgsTable/TabbedArgsTable.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/components/DocsPage.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/components/ArgsTable/SectionRow.stories.tsx",
+      "name": "./ui/blocks/src/components/ArgsTable/SectionRow.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/components/ArgsTable/TabbedArgsTable.stories.tsx",
+      "name": "./ui/blocks/src/components/ArgsTable/TabbedArgsTable.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/components/ColorPalette.stories.tsx",
+      "name": "./ui/blocks/src/components/ColorPalette.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/components/DocsPage.stories.tsx",
+      "name": "./ui/blocks/src/components/DocsPage.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/components/DocsPageExampleCaption.mdx",
+      "name": "./ui/blocks/src/components/DocsPageExampleCaption.mdx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/components/EmptyBlock.stories.tsx",
+      "name": "./ui/blocks/src/components/EmptyBlock.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/components/IconGallery.stories.tsx",
+      "name": "./ui/blocks/src/components/IconGallery.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/components/Preview.stories.tsx",
+      "name": "./ui/blocks/src/components/Preview.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        },
+        {
+          "moduleName": "./ui/blocks/src/components/DocsPage.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/components/Source.stories.tsx",
+      "name": "./ui/blocks/src/components/Source.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        },
+        {
+          "moduleName": "./ui/blocks/src/components/Preview.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/components/DocsPage.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/components/Story.stories.tsx",
+      "name": "./ui/blocks/src/components/Story.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        },
+        {
+          "moduleName": "./ui/blocks/src/blocks/Story.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/components/Title.stories.ts",
+      "name": "./ui/blocks/src/components/Title.stories.ts",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/components/Typeset.stories.tsx",
+      "name": "./ui/blocks/src/components/Typeset.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/controls/Boolean.stories.tsx",
+      "name": "./ui/blocks/src/controls/Boolean.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/controls/Color.stories.tsx",
+      "name": "./ui/blocks/src/controls/Color.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/controls/Date.stories.tsx",
+      "name": "./ui/blocks/src/controls/Date.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/controls/Files.stories.tsx",
+      "name": "./ui/blocks/src/controls/Files.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/controls/Number.stories.tsx",
+      "name": "./ui/blocks/src/controls/Number.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/controls/Object.stories.tsx",
+      "name": "./ui/blocks/src/controls/Object.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/controls/Range.stories.tsx",
+      "name": "./ui/blocks/src/controls/Range.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/controls/Text.stories.tsx",
+      "name": "./ui/blocks/src/controls/Text.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/controls/options/CheckOptions.stories.tsx",
+      "name": "./ui/blocks/src/controls/options/CheckOptions.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/controls/options/RadioOptions.stories.tsx",
+      "name": "./ui/blocks/src/controls/options/RadioOptions.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/controls/options/SelectOptions.stories.tsx",
+      "name": "./ui/blocks/src/controls/options/SelectOptions.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/examples/ArgTypesParameters.stories.tsx",
+      "name": "./ui/blocks/src/examples/ArgTypesParameters.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        },
+        {
+          "moduleName": "./ui/blocks/src/blocks/ArgTypes.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/examples/ArgTypesWithSubcomponentsParameters.stories.tsx",
+      "name": "./ui/blocks/src/examples/ArgTypesWithSubcomponentsParameters.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        },
+        {
+          "moduleName": "./ui/blocks/src/blocks/ArgTypes.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/examples/Button.stories.tsx",
+      "name": "./ui/blocks/src/examples/Button.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        },
+        {
+          "moduleName": "./ui/blocks/src/blocks/Description.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/blocks/Canvas.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/components/Preview.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/components/Story.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/blocks/Primary.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/blocks/Story.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/examples/ButtonWithMetaDescriptionAsBoth.stories.tsx",
+      "name": "./ui/blocks/src/examples/ButtonWithMetaDescriptionAsBoth.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        },
+        {
+          "moduleName": "./ui/blocks/src/blocks/Description.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/examples/ButtonWithMetaDescriptionAsComment.stories.tsx",
+      "name": "./ui/blocks/src/examples/ButtonWithMetaDescriptionAsComment.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        },
+        {
+          "moduleName": "./ui/blocks/src/blocks/Description.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/examples/ButtonWithMetaDescriptionAsParameter.stories.tsx",
+      "name": "./ui/blocks/src/examples/ButtonWithMetaDescriptionAsParameter.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        },
+        {
+          "moduleName": "./ui/blocks/src/blocks/Description.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/examples/CanvasParameters.stories.tsx",
+      "name": "./ui/blocks/src/examples/CanvasParameters.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        },
+        {
+          "moduleName": "./ui/blocks/src/blocks/Canvas.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/examples/ControlsParameters.stories.tsx",
+      "name": "./ui/blocks/src/examples/ControlsParameters.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        },
+        {
+          "moduleName": "./ui/blocks/src/blocks/Controls.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/examples/ControlsWithSubcomponentsParameters.stories.tsx",
+      "name": "./ui/blocks/src/examples/ControlsWithSubcomponentsParameters.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        },
+        {
+          "moduleName": "./ui/blocks/src/blocks/Controls.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/examples/DocsPageParameters.stories.tsx",
+      "name": "./ui/blocks/src/examples/DocsPageParameters.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/examples/SourceParameters.stories.tsx",
+      "name": "./ui/blocks/src/examples/SourceParameters.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        },
+        {
+          "moduleName": "./ui/blocks/src/blocks/Canvas.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/blocks/Source.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/examples/StoriesParameters.stories.tsx",
+      "name": "./ui/blocks/src/examples/StoriesParameters.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        },
+        {
+          "moduleName": "./ui/blocks/src/blocks/Primary.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/examples/StoryParameters.stories.tsx",
+      "name": "./ui/blocks/src/examples/StoryParameters.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        },
+        {
+          "moduleName": "./ui/blocks/src/blocks/Story.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/components/src/components/ActionBar/ActionBar.stories.tsx",
+      "name": "./ui/components/src/components/ActionBar/ActionBar.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./ui/components/src/components/Badge/Badge.stories.tsx",
+      "name": "./ui/components/src/components/Badge/Badge.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./ui/components/src/components/Button/Button.deprecated.stories.tsx",
+      "name": "./ui/components/src/components/Button/Button.deprecated.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./ui/components/src/components/Button/Button.stories.tsx",
+      "name": "./ui/components/src/components/Button/Button.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        },
+        {
+          "moduleName": "./ui/components/src/components/Button/Docs.mdx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/components/src/components/Button/Docs.mdx",
+      "name": "./ui/components/src/components/Button/Docs.mdx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./ui/components/src/components/Colors/colorpalette.mdx",
+      "name": "./ui/components/src/components/Colors/colorpalette.mdx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./ui/components/src/components/ErrorFormatter/ErrorFormatter.stories.tsx",
+      "name": "./ui/components/src/components/ErrorFormatter/ErrorFormatter.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./ui/components/src/components/IconButton/IconButton.stories.tsx",
+      "name": "./ui/components/src/components/IconButton/IconButton.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./ui/components/src/components/Loader/Loader.stories.tsx",
+      "name": "./ui/components/src/components/Loader/Loader.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./ui/components/src/components/ScrollArea/ScrollArea.stories.tsx",
+      "name": "./ui/components/src/components/ScrollArea/ScrollArea.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./ui/components/src/components/Zoom/Zoom.stories.tsx",
+      "name": "./ui/components/src/components/Zoom/Zoom.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./ui/components/src/components/brand/StorybookIcon.stories.tsx",
+      "name": "./ui/components/src/components/brand/StorybookIcon.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./ui/components/src/components/brand/StorybookLogo.stories.tsx",
+      "name": "./ui/components/src/components/brand/StorybookLogo.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./ui/components/src/components/form/form.stories.tsx",
+      "name": "./ui/components/src/components/form/form.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./ui/components/src/components/icon/icon.stories.tsx",
+      "name": "./ui/components/src/components/icon/icon.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./ui/components/src/components/placeholder/placeholder.stories.tsx",
+      "name": "./ui/components/src/components/placeholder/placeholder.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./ui/components/src/components/spaced/Spaced.stories.tsx",
+      "name": "./ui/components/src/components/spaced/Spaced.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./ui/components/src/components/syntaxhighlighter/syntaxhighlighter.stories.tsx",
+      "name": "./ui/components/src/components/syntaxhighlighter/syntaxhighlighter.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./ui/components/src/components/tabs/tabs.stories.tsx",
+      "name": "./ui/components/src/components/tabs/tabs.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./ui/components/src/components/tooltip/ListItem.stories.tsx",
+      "name": "./ui/components/src/components/tooltip/ListItem.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./ui/components/src/components/tooltip/Tooltip.stories.tsx",
+      "name": "./ui/components/src/components/tooltip/Tooltip.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./ui/components/src/components/tooltip/TooltipLinkList.stories.tsx",
+      "name": "./ui/components/src/components/tooltip/TooltipLinkList.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./ui/components/src/components/tooltip/TooltipMessage.stories.tsx",
+      "name": "./ui/components/src/components/tooltip/TooltipMessage.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./ui/components/src/components/tooltip/TooltipNote.stories.tsx",
+      "name": "./ui/components/src/components/tooltip/TooltipNote.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./ui/components/src/components/tooltip/WithTooltip.stories.tsx",
+      "name": "./ui/components/src/components/tooltip/WithTooltip.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./ui/components/src/components/typography/DocumentWrapper.stories.tsx",
+      "name": "./ui/components/src/components/typography/DocumentWrapper.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./ui/components/src/components/typography/link/link.stories.tsx",
+      "name": "./ui/components/src/components/typography/link/link.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./ui/components/src/components/typography/typography.mdx",
+      "name": "./ui/components/src/components/typography/typography.mdx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./ui/manager/src/components/layout/Layout.stories.tsx",
+      "name": "./ui/manager/src/components/layout/Layout.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./ui/manager/src/components/mobile/about/MobileAbout.stories.tsx",
+      "name": "./ui/manager/src/components/mobile/about/MobileAbout.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./ui/manager/src/components/mobile/navigation/MobileNavigation.stories.tsx",
+      "name": "./ui/manager/src/components/mobile/navigation/MobileNavigation.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        },
+        {
+          "moduleName": "./ui/manager/src/components/layout/Layout.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/manager/src/components/notifications/NotificationItem.stories.tsx",
+      "name": "./ui/manager/src/components/notifications/NotificationItem.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        },
+        {
+          "moduleName": "./ui/manager/src/components/notifications/NotificationList.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/manager/src/components/notifications/NotificationList.stories.tsx",
+      "name": "./ui/manager/src/components/notifications/NotificationList.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./ui/manager/src/components/panel/Panel.stories.tsx",
+      "name": "./ui/manager/src/components/panel/Panel.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./ui/manager/src/components/preview/Iframe.stories.tsx",
+      "name": "./ui/manager/src/components/preview/Iframe.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./ui/manager/src/components/preview/Preview.stories.tsx",
+      "name": "./ui/manager/src/components/preview/Preview.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./ui/manager/src/components/sidebar/Explorer.stories.tsx",
+      "name": "./ui/manager/src/components/sidebar/Explorer.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        },
+        {
+          "moduleName": "./ui/manager/src/components/sidebar/Sidebar.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/manager/src/components/sidebar/Heading.stories.tsx",
+      "name": "./ui/manager/src/components/sidebar/Heading.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        },
+        {
+          "moduleName": "./ui/manager/src/components/sidebar/Refs.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/manager/src/components/sidebar/Sidebar.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/manager/src/components/sidebar/Menu.stories.tsx",
+      "name": "./ui/manager/src/components/sidebar/Menu.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./ui/manager/src/components/sidebar/Refs.stories.tsx",
+      "name": "./ui/manager/src/components/sidebar/Refs.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        },
+        {
+          "moduleName": "./ui/manager/src/components/sidebar/Explorer.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/manager/src/components/sidebar/Search.stories.tsx",
+      "name": "./ui/manager/src/components/sidebar/Search.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./ui/manager/src/components/sidebar/SearchResults.stories.tsx",
+      "name": "./ui/manager/src/components/sidebar/SearchResults.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        },
+        {
+          "moduleName": "./ui/manager/src/components/sidebar/Search.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/manager/src/components/sidebar/Sidebar.stories.tsx",
+      "name": "./ui/manager/src/components/sidebar/Sidebar.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./ui/manager/src/components/sidebar/Tree.stories.tsx",
+      "name": "./ui/manager/src/components/sidebar/Tree.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./ui/manager/src/components/sidebar/TreeNode.stories.tsx",
+      "name": "./ui/manager/src/components/sidebar/TreeNode.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./ui/manager/src/components/upgrade/UpgradeBlock.stories.tsx",
+      "name": "./ui/manager/src/components/upgrade/UpgradeBlock.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        },
+        {
+          "moduleName": "./ui/manager/src/settings/about.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/manager/src/container/Menu.stories.tsx",
+      "name": "./ui/manager/src/container/Menu.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./ui/manager/src/container/Panel.stories.tsx",
+      "name": "./ui/manager/src/container/Panel.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./ui/manager/src/settings/SettingsFooter.stories.tsx",
+      "name": "./ui/manager/src/settings/SettingsFooter.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./ui/manager/src/settings/about.stories.tsx",
+      "name": "./ui/manager/src/settings/about.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./ui/manager/src/settings/shortcuts.stories.tsx",
+      "name": "./ui/manager/src/settings/shortcuts.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./ui/manager/src/settings/whats_new_footer.stories.tsx",
+      "name": "./ui/manager/src/settings/whats_new_footer.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/blocks/Anchor.tsx",
+      "name": "./ui/blocks/src/blocks/Anchor.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/blocks/src/blocks/Anchor.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/blocks/DocsStory.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/components/Source.tsx",
+      "name": "./ui/blocks/src/components/Source.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/blocks/src/components/Source.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/components/index.ts"
+        },
+        {
+          "moduleName": "./ui/blocks/src/blocks/Source.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/controls/Boolean.tsx",
+      "name": "./ui/blocks/src/controls/Boolean.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/blocks/src/controls/Boolean.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/controls/index.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/components/Title.tsx",
+      "name": "./ui/blocks/src/components/Title.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/blocks/src/components/Title.stories.ts"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/blocks/DocsPage.tsx",
+      "name": "./ui/blocks/src/blocks/DocsPage.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/blocks/src/blocks/DocsPage.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/controls/Color.tsx",
+      "name": "./ui/blocks/src/controls/Color.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/blocks/src/controls/Color.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/controls/index.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/blocks/Markdown.tsx",
+      "name": "./ui/blocks/src/blocks/Markdown.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/blocks/src/blocks/Markdown.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/components/DocsPage.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/blocks/Description.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/examples/Markdown-content.md",
+      "name": "./ui/blocks/src/examples/Markdown-content.md",
+      "reasons": [
+        {
+          "moduleName": "./ui/blocks/src/blocks/Markdown.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/controls/Files.tsx",
+      "name": "./ui/blocks/src/controls/Files.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/blocks/src/controls/Files.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/controls/index.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/components/index.ts",
+      "name": "./ui/blocks/src/components/index.ts",
+      "reasons": [
+        {
+          "moduleName": "./ui/.storybook/preview.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/components/DocsPage.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/blocks/Controls.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/blocks/Canvas.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/components/Preview.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/blocks/ArgTypes.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/blocks/Story.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/components/ArgsTable/ArgsTable.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/blocks/Title.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/blocks/Subtitle.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/blocks/mdx.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/blocks/Controls.tsx",
+      "name": "./ui/blocks/src/blocks/Controls.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/blocks/src/blocks/Controls.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/blocks/DocsPage.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/components/IconGallery.tsx",
+      "name": "./ui/blocks/src/components/IconGallery.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/blocks/src/components/IconGallery.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/components/index.ts"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/blocks/Description.tsx",
+      "name": "./ui/blocks/src/blocks/Description.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/blocks/src/blocks/Description.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/blocks/DocsPage.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/blocks/DocsStory.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/examples/Button.tsx",
+      "name": "./ui/blocks/src/examples/Button.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/blocks/src/blocks/Description.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/examples/ButtonWithMetaDescriptionAsComment.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/examples/Button.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/examples/ButtonWithMetaDescriptionAsBoth.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/examples/ButtonWithMetaDescriptionAsParameter.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/blocks/Canvas.tsx",
+      "name": "./ui/blocks/src/blocks/Canvas.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/blocks/src/blocks/Canvas.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/blocks/DocsStory.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/components/Preview.tsx",
+      "name": "./ui/blocks/src/components/Preview.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/blocks/src/components/Preview.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/components/index.ts"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/components/Story.tsx",
+      "name": "./ui/blocks/src/components/Story.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/blocks/src/components/Preview.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/components/Story.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/components/index.ts"
+        },
+        {
+          "moduleName": "./ui/blocks/src/components/Preview.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/components/EmptyBlock.tsx",
+      "name": "./ui/blocks/src/components/EmptyBlock.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/blocks/src/components/EmptyBlock.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/components/index.ts"
+        },
+        {
+          "moduleName": "./ui/blocks/src/components/Source.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/blocks/ArgTypes.tsx",
+      "name": "./ui/blocks/src/blocks/ArgTypes.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/blocks/src/blocks/ArgTypes.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/components/Typeset.tsx",
+      "name": "./ui/blocks/src/components/Typeset.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/blocks/src/components/Typeset.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/components/index.ts"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/blocks/Stories.tsx",
+      "name": "./ui/blocks/src/blocks/Stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/blocks/src/blocks/Stories.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/blocks/DocsPage.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/controls/Date.tsx",
+      "name": "./ui/blocks/src/controls/Date.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/blocks/src/controls/Date.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/controls/index.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/controls/Object.tsx",
+      "name": "./ui/blocks/src/controls/Object.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/blocks/src/controls/Object.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/controls/index.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/blocks/Source.tsx",
+      "name": "./ui/blocks/src/blocks/Source.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/blocks/src/blocks/Source.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/blocks/Canvas.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/blocks/SourceContainer.tsx",
+      "name": "./ui/blocks/src/blocks/SourceContainer.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/blocks/src/blocks/Source.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/blocks/Canvas.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/blocks/Source.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/blocks/Primary.tsx",
+      "name": "./ui/blocks/src/blocks/Primary.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/blocks/src/blocks/Primary.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/blocks/DocsPage.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/blocks/Story.tsx",
+      "name": "./ui/blocks/src/blocks/Story.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/blocks/src/blocks/Story.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/blocks/Canvas.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/components/ArgsTable/ArgRow.tsx",
+      "name": "./ui/blocks/src/components/ArgsTable/ArgRow.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/blocks/src/components/ArgsTable/ArgRow.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/components/ArgsTable/ArgsTable.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/components/ArgsTable/ArgsTable.tsx",
+      "name": "./ui/blocks/src/components/ArgsTable/ArgsTable.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/blocks/src/components/ArgsTable/ArgRow.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/components/ArgsTable/ArgsTable.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/components/ArgsTable/SectionRow.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/components/ArgsTable/TabbedArgsTable.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/components/ArgsTable/index.ts"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/controls/Number.tsx",
+      "name": "./ui/blocks/src/controls/Number.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/blocks/src/controls/Number.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/controls/Range.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/controls/index.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/controls/Range.tsx",
+      "name": "./ui/blocks/src/controls/Range.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/blocks/src/controls/Range.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/controls/index.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/controls/Text.tsx",
+      "name": "./ui/blocks/src/controls/Text.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/blocks/src/controls/Text.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/controls/index.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/examples/ArgTypesParameters.tsx",
+      "name": "./ui/blocks/src/examples/ArgTypesParameters.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/blocks/src/examples/ArgTypesParameters.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/examples/ArgTypesWithSubcomponentsParameters.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/components/ArgsTable/TabbedArgsTable.tsx",
+      "name": "./ui/blocks/src/components/ArgsTable/TabbedArgsTable.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/blocks/src/components/ArgsTable/TabbedArgsTable.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/components/ArgsTable/index.ts"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/components/ColorPalette.tsx",
+      "name": "./ui/blocks/src/components/ColorPalette.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/blocks/src/components/ColorPalette.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/components/index.ts"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/controls/options/Options.tsx",
+      "name": "./ui/blocks/src/controls/options/Options.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/blocks/src/controls/options/CheckOptions.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/controls/options/RadioOptions.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/controls/options/SelectOptions.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/controls/options/index.ts"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/blocks/Unstyled.tsx",
+      "name": "./ui/blocks/src/blocks/Unstyled.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/blocks/src/blocks/Unstyled.mdx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/components/DocsPage.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/components/src/components/Colors/SideBySide.tsx",
+      "name": "./ui/components/src/components/Colors/SideBySide.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/components/src/components/Colors/colorpalette.mdx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/components/ArgsTable/SectionRow.tsx",
+      "name": "./ui/blocks/src/components/ArgsTable/SectionRow.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/blocks/src/components/ArgsTable/SectionRow.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/components/ArgsTable/ArgsTable.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/components/DocsPage.tsx",
+      "name": "./ui/blocks/src/components/DocsPage.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/blocks/src/components/DocsPage.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/components/index.ts"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/examples/ControlsParameters.tsx",
+      "name": "./ui/blocks/src/examples/ControlsParameters.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/blocks/src/examples/ControlsWithSubcomponentsParameters.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/examples/ControlsParameters.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/examples/EmptyExample.tsx",
+      "name": "./ui/blocks/src/examples/EmptyExample.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/blocks/src/examples/DocsPageParameters.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/examples/CanvasParameters.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/examples/StoriesParameters.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/examples/SourceParameters.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/examples/SimpleSizeTest.tsx",
+      "name": "./ui/blocks/src/examples/SimpleSizeTest.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/blocks/src/examples/StoryParameters.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/components/src/components/ActionBar/ActionBar.tsx",
+      "name": "./ui/components/src/components/ActionBar/ActionBar.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/components/src/components/ActionBar/ActionBar.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/components/src/components/syntaxhighlighter/syntaxhighlighter.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/components/src/components/Badge/Badge.tsx",
+      "name": "./ui/components/src/components/Badge/Badge.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/components/src/components/Badge/Badge.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/components/src/components/Button/Button.tsx",
+      "name": "./ui/components/src/components/Button/Button.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/components/src/components/Button/Button.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/components/src/components/Button/Button.deprecated.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/components/src/components/form/index.tsx"
+        },
+        {
+          "moduleName": "./ui/components/src/components/IconButton/IconButton.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/components/src/components/tooltip/TooltipMessage.tsx",
+      "name": "./ui/components/src/components/tooltip/TooltipMessage.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/components/src/components/tooltip/WithTooltip.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/components/src/components/tooltip/TooltipMessage.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/components/src/components/tooltip/WithTooltip.tsx",
+      "name": "./ui/components/src/components/tooltip/WithTooltip.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/components/src/components/tooltip/WithTooltip.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/components/src/components/tooltip/TooltipNote.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/components/src/components/tooltip/TooltipLinkList.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/components/src/components/tooltip/TooltipMessage.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/components/src/components/tabs/tabs.hooks.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/components/src/components/form/index.tsx",
+      "name": "./ui/components/src/components/form/index.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/components/src/components/Button/Button.deprecated.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/components/src/components/ErrorFormatter/ErrorFormatter.tsx",
+      "name": "./ui/components/src/components/ErrorFormatter/ErrorFormatter.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/components/src/components/ErrorFormatter/ErrorFormatter.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/components/src/components/typography/DocumentWrapper.tsx",
+      "name": "./ui/components/src/components/typography/DocumentWrapper.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/components/src/components/typography/DocumentWrapper.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/components/src/components/Loader/Loader.tsx",
+      "name": "./ui/components/src/components/Loader/Loader.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/components/src/components/Loader/Loader.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/components/src/components/typography/link/link.tsx",
+      "name": "./ui/components/src/components/typography/link/link.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/components/src/components/typography/link/link.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/components/src/components/placeholder/placeholder.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/components/src/components/tooltip/TooltipMessage.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/components/src/components/IconButton/IconButton.tsx",
+      "name": "./ui/components/src/components/IconButton/IconButton.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/components/src/components/IconButton/IconButton.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/components/src/components/tabs/tabs.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/components/src/components/ScrollArea/ScrollArea.tsx",
+      "name": "./ui/components/src/components/ScrollArea/ScrollArea.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/components/src/components/ScrollArea/ScrollArea.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/components/src/components/bar/bar.tsx"
+        },
+        {
+          "moduleName": "./ui/components/src/components/syntaxhighlighter/syntaxhighlighter.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/components/src/components/Zoom/Zoom.tsx",
+      "name": "./ui/components/src/components/Zoom/Zoom.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/components/src/components/Zoom/Zoom.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/components/src/components/brand/StorybookIcon.tsx",
+      "name": "./ui/components/src/components/brand/StorybookIcon.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/components/src/components/brand/StorybookIcon.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/components/src/components/placeholder/placeholder.tsx",
+      "name": "./ui/components/src/components/placeholder/placeholder.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/components/src/components/placeholder/placeholder.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/components/src/components/tabs/tabs.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/components/src/components/spaced/Spaced.tsx",
+      "name": "./ui/components/src/components/spaced/Spaced.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/components/src/components/spaced/Spaced.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/components/src/components/icon/icon.tsx",
+      "name": "./ui/components/src/components/icon/icon.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/components/src/components/icon/icon.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/components/src/components/Loader/Loader.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/components/src/components/form/input/input.tsx",
+      "name": "./ui/components/src/components/form/input/input.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/components/src/components/form/form.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/components/src/components/form/index.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/components/src/components/form/field/field.tsx",
+      "name": "./ui/components/src/components/form/field/field.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/components/src/components/form/form.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/components/src/components/form/index.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/components/src/components/tabs/tabs.tsx",
+      "name": "./ui/components/src/components/tabs/tabs.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/components/src/components/tabs/tabs.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/components/src/components/tooltip/Tooltip.tsx",
+      "name": "./ui/components/src/components/tooltip/Tooltip.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/components/src/components/tooltip/Tooltip.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/components/src/components/tooltip/WithTooltip.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/components/src/components/brand/StorybookLogo.tsx",
+      "name": "./ui/components/src/components/brand/StorybookLogo.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/components/src/components/brand/StorybookLogo.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/components/src/components/tooltip/ListItem.tsx",
+      "name": "./ui/components/src/components/tooltip/ListItem.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/components/src/components/tooltip/ListItem.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/components/src/components/tooltip/TooltipLinkList.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/components/src/components/tooltip/TooltipNote.tsx",
+      "name": "./ui/components/src/components/tooltip/TooltipNote.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/components/src/components/tooltip/TooltipNote.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/components/src/components/tooltip/TooltipLinkList.tsx",
+      "name": "./ui/components/src/components/tooltip/TooltipLinkList.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/components/src/components/tooltip/TooltipLinkList.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/components/src/components/tabs/tabs.hooks.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/components/src/components/tooltip/assets/ellipse.png",
+      "name": "./ui/components/src/components/tooltip/assets/ellipse.png",
+      "reasons": [
+        {
+          "moduleName": "./ui/components/src/components/tooltip/TooltipLinkList.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/manager/src/components/mobile/about/MobileAbout.tsx",
+      "name": "./ui/manager/src/components/mobile/about/MobileAbout.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/manager/src/components/mobile/about/MobileAbout.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/manager/src/components/mobile/navigation/MobileMenuDrawer.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/manager/src/components/layout/LayoutProvider.tsx",
+      "name": "./ui/manager/src/components/layout/LayoutProvider.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/manager/src/components/mobile/about/MobileAbout.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/manager/src/components/layout/Layout.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/manager/src/components/mobile/navigation/MobileNavigation.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/manager/src/components/sidebar/Menu.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/manager/src/components/sidebar/Sidebar.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/manager/src/components/preview/Preview.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/manager/src/components/layout/Layout.tsx"
+        },
+        {
+          "moduleName": "./ui/manager/src/components/mobile/navigation/MobileNavigation.tsx"
+        },
+        {
+          "moduleName": "./ui/manager/src/components/panel/Panel.tsx"
+        },
+        {
+          "moduleName": "./ui/manager/src/components/mobile/about/MobileAbout.tsx"
+        },
+        {
+          "moduleName": "./ui/manager/src/components/sidebar/Menu.tsx"
+        },
+        {
+          "moduleName": "./ui/manager/src/components/sidebar/Tree.tsx"
+        },
+        {
+          "moduleName": "./ui/manager/src/components/mobile/navigation/MobileMenuDrawer.tsx"
+        },
+        {
+          "moduleName": "./ui/manager/src/components/mobile/navigation/MobileAddonsDrawer.tsx"
+        },
+        {
+          "moduleName": "./ui/manager/src/components/preview/Toolbar.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/manager/src/settings/shortcuts.tsx",
+      "name": "./ui/manager/src/settings/shortcuts.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/manager/src/settings/shortcuts.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/manager/src/settings/defaultShortcuts.tsx",
+      "name": "./ui/manager/src/settings/defaultShortcuts.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/manager/src/settings/shortcuts.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/manager/src/components/panel/Panel.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/manager/src/settings/About.tsx",
+      "name": "./ui/manager/src/settings/About.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/manager/src/settings/about.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/manager/src/components/layout/Layout.tsx",
+      "name": "./ui/manager/src/components/layout/Layout.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/manager/src/components/layout/Layout.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/manager/src/settings/SettingsFooter.tsx",
+      "name": "./ui/manager/src/settings/SettingsFooter.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/manager/src/settings/SettingsFooter.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/manager/src/settings/shortcuts.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/manager/src/settings/whats_new.tsx",
+      "name": "./ui/manager/src/settings/whats_new.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/manager/src/settings/whats_new_footer.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/manager/src/components/mobile/navigation/MobileNavigation.tsx",
+      "name": "./ui/manager/src/components/mobile/navigation/MobileNavigation.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/manager/src/components/mobile/navigation/MobileNavigation.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/manager/src/components/layout/Layout.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/manager/src/components/notifications/NotificationList.tsx",
+      "name": "./ui/manager/src/components/notifications/NotificationList.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/manager/src/components/notifications/NotificationList.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/manager/src/container/Notifications.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/manager/src/components/notifications/NotificationItem.tsx",
+      "name": "./ui/manager/src/components/notifications/NotificationItem.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/manager/src/components/notifications/NotificationItem.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/manager/src/components/notifications/NotificationList.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/manager/src/components/preview/Iframe.tsx",
+      "name": "./ui/manager/src/components/preview/Iframe.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/manager/src/components/preview/Iframe.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/manager/src/components/preview/FramesRenderer.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/manager/src/components/panel/Panel.tsx",
+      "name": "./ui/manager/src/components/panel/Panel.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/manager/src/components/panel/Panel.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/manager/src/components/sidebar/Explorer.tsx",
+      "name": "./ui/manager/src/components/sidebar/Explorer.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/manager/src/components/sidebar/Explorer.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/manager/src/components/sidebar/Sidebar.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/manager/src/components/sidebar/mockdata.ts",
+      "name": "./ui/manager/src/components/sidebar/mockdata.ts",
+      "reasons": [
+        {
+          "moduleName": "./ui/manager/src/components/sidebar/Explorer.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/manager/src/components/sidebar/SearchResults.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/manager/src/components/sidebar/Refs.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/manager/src/components/sidebar/Sidebar.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/manager/src/components/sidebar/IconSymbols.tsx",
+      "name": "./ui/manager/src/components/sidebar/IconSymbols.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/manager/src/components/sidebar/Explorer.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/manager/src/components/sidebar/Search.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/manager/src/components/sidebar/SearchResults.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/manager/src/components/sidebar/Refs.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/manager/src/components/sidebar/Sidebar.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/manager/src/components/sidebar/TreeNode.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/manager/src/components/sidebar/SearchResults.tsx"
+        },
+        {
+          "moduleName": "./ui/manager/src/components/sidebar/Tree.tsx"
+        },
+        {
+          "moduleName": "./ui/manager/src/components/sidebar/TreeNode.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/components/src/components/syntaxhighlighter/lazy-syntaxhighlighter.tsx",
+      "name": "./ui/components/src/components/syntaxhighlighter/lazy-syntaxhighlighter.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/components/src/components/syntaxhighlighter/syntaxhighlighter.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/manager/src/components/sidebar/mockdata.large.ts",
+      "name": "./ui/manager/src/components/sidebar/mockdata.large.ts",
+      "reasons": [
+        {
+          "moduleName": "./ui/manager/src/components/sidebar/Search.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/manager/src/components/sidebar/Tree.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/manager/src/components/sidebar/Search.tsx",
+      "name": "./ui/manager/src/components/sidebar/Search.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/manager/src/components/sidebar/Search.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/manager/src/components/sidebar/Sidebar.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/manager/src/components/sidebar/SearchResults.tsx",
+      "name": "./ui/manager/src/components/sidebar/SearchResults.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/manager/src/components/sidebar/Search.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/manager/src/components/sidebar/SearchResults.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/manager/src/components/sidebar/Sidebar.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/manager/src/components/sidebar/Sidebar.tsx",
+      "name": "./ui/manager/src/components/sidebar/Sidebar.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/manager/src/components/sidebar/Search.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/manager/src/components/sidebar/Sidebar.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/manager/src/components/sidebar/Tree.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/manager/src/components/sidebar/Search.tsx"
+        },
+        {
+          "moduleName": "./ui/manager/src/components/sidebar/Refs.tsx"
+        },
+        {
+          "moduleName": "./ui/manager/src/utils/tree.ts"
+        }
+      ]
+    },
+    {
+      "id": "./ui/manager/src/components/sidebar/Menu.tsx",
+      "name": "./ui/manager/src/components/sidebar/Menu.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/manager/src/components/sidebar/Menu.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/manager/src/components/sidebar/Heading.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/manager/src/container/Menu.tsx",
+      "name": "./ui/manager/src/container/Menu.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/manager/src/components/sidebar/Menu.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/manager/src/container/Menu.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/manager/src/utils/tree.ts",
+      "name": "./ui/manager/src/utils/tree.ts",
+      "reasons": [
+        {
+          "moduleName": "./ui/manager/src/components/sidebar/SearchResults.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/manager/src/components/sidebar/Search.tsx"
+        },
+        {
+          "moduleName": "./ui/manager/src/components/sidebar/Refs.tsx"
+        },
+        {
+          "moduleName": "./ui/manager/src/components/sidebar/Tree.tsx"
+        },
+        {
+          "moduleName": "./ui/manager/src/components/sidebar/useHighlighted.ts"
+        },
+        {
+          "moduleName": "./ui/manager/src/utils/status.tsx"
+        },
+        {
+          "moduleName": "./ui/manager/src/components/sidebar/useExpanded.ts"
+        }
+      ]
+    },
+    {
+      "id": "./ui/manager/src/components/sidebar/Refs.tsx",
+      "name": "./ui/manager/src/components/sidebar/Refs.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/manager/src/components/sidebar/Refs.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/manager/src/components/sidebar/Explorer.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/components/ArgsTable/index.ts",
+      "name": "./ui/blocks/src/components/ArgsTable/index.ts",
+      "reasons": [
+        {
+          "moduleName": "./ui/blocks/src/components/index.ts"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/components/IFrame.tsx",
+      "name": "./ui/blocks/src/components/IFrame.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/blocks/src/components/index.ts"
+        },
+        {
+          "moduleName": "./ui/blocks/src/components/Story.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/manager/src/components/sidebar/Tree.tsx",
+      "name": "./ui/manager/src/components/sidebar/Tree.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/manager/src/components/sidebar/Tree.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/manager/src/components/sidebar/TreeNode.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/manager/src/components/sidebar/Refs.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/manager/src/components/upgrade/UpgradeBlock.tsx",
+      "name": "./ui/manager/src/components/upgrade/UpgradeBlock.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/manager/src/components/upgrade/UpgradeBlock.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/manager/src/settings/About.tsx"
+        },
+        {
+          "moduleName": "./ui/manager/src/components/mobile/about/MobileAbout.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/components/BlockBackgroundStyles.tsx",
+      "name": "./ui/blocks/src/components/BlockBackgroundStyles.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/blocks/src/components/IconGallery.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/components/Preview.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/components/Typeset.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/components/ColorPalette.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/blocks/DocsContext.ts",
+      "name": "./ui/blocks/src/blocks/DocsContext.ts",
+      "reasons": [
+        {
+          "moduleName": "./ui/blocks/src/blocks/Controls.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/blocks/Canvas.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/blocks/Stories.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/blocks/Primary.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/blocks/Source.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/blocks/Story.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/blocks/useOf.ts"
+        },
+        {
+          "moduleName": "./ui/blocks/src/blocks/Title.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/blocks/Subtitle.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/blocks/mdx.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/blocks/useGlobals.ts",
+      "name": "./ui/blocks/src/blocks/useGlobals.ts",
+      "reasons": [
+        {
+          "moduleName": "./ui/blocks/src/blocks/Controls.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/blocks/useArgs.ts",
+      "name": "./ui/blocks/src/blocks/useArgs.ts",
+      "reasons": [
+        {
+          "moduleName": "./ui/blocks/src/blocks/Controls.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/blocks/utils.ts",
+      "name": "./ui/blocks/src/blocks/utils.ts",
+      "reasons": [
+        {
+          "moduleName": "./ui/blocks/src/blocks/Controls.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/blocks/ArgTypes.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/blocks/useOf.ts",
+      "name": "./ui/blocks/src/blocks/useOf.ts",
+      "reasons": [
+        {
+          "moduleName": "./ui/blocks/src/blocks/Description.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/blocks/Canvas.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/blocks/ArgTypes.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/blocks/DocsPage.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/blocks/Primary.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/blocks/DocsStory.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/manager/src/components/sidebar/HighlightStyles.tsx",
+      "name": "./ui/manager/src/components/sidebar/HighlightStyles.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/manager/src/components/sidebar/TreeNode.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/manager/src/components/sidebar/Explorer.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/manager/src/components/sidebar/TreeNode.tsx",
+      "name": "./ui/manager/src/components/sidebar/TreeNode.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/manager/src/components/sidebar/TreeNode.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/manager/src/components/sidebar/SearchResults.tsx"
+        },
+        {
+          "moduleName": "./ui/manager/src/components/sidebar/Tree.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/manager/src/components/preview/Preview.tsx",
+      "name": "./ui/manager/src/components/preview/Preview.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/manager/src/components/preview/Preview.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/manager/src/FakeProvider.tsx",
+      "name": "./ui/manager/src/FakeProvider.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/manager/src/components/preview/Preview.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/manager/src/components/preview/Preview.mockdata.tsx",
+      "name": "./ui/manager/src/components/preview/Preview.mockdata.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/manager/src/components/preview/Preview.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/manager/src/components/sidebar/Heading.tsx",
+      "name": "./ui/manager/src/components/sidebar/Heading.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/manager/src/components/sidebar/Heading.stories.tsx"
+        },
+        {
+          "moduleName": "./ui/manager/src/components/sidebar/Sidebar.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/components/ZoomContext.tsx",
+      "name": "./ui/blocks/src/components/ZoomContext.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/blocks/src/components/Story.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/components/Preview.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/components/Toolbar.tsx",
+      "name": "./ui/blocks/src/components/Toolbar.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/blocks/src/components/Preview.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/blocks/Title.tsx",
+      "name": "./ui/blocks/src/blocks/Title.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/blocks/src/blocks/DocsPage.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/blocks/Subtitle.tsx",
+      "name": "./ui/blocks/src/blocks/Subtitle.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/blocks/src/blocks/DocsPage.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/controls/helpers.ts",
+      "name": "./ui/blocks/src/controls/helpers.ts",
+      "reasons": [
+        {
+          "moduleName": "./ui/blocks/src/controls/Boolean.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/controls/Files.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/controls/Date.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/controls/Number.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/controls/Range.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/controls/Text.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/controls/Color.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/controls/Object.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/controls/options/Radio.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/controls/options/Checkbox.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/controls/options/Select.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/blocks/mdx.tsx",
+      "name": "./ui/blocks/src/blocks/mdx.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/blocks/src/blocks/Markdown.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/blocks/Heading.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/blocks/Subheading.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/blocks/DocsStory.tsx",
+      "name": "./ui/blocks/src/blocks/DocsStory.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/blocks/src/blocks/Stories.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/blocks/Primary.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/blocks/Heading.tsx",
+      "name": "./ui/blocks/src/blocks/Heading.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/blocks/src/blocks/Stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/blocks/useStory.ts",
+      "name": "./ui/blocks/src/blocks/useStory.ts",
+      "reasons": [
+        {
+          "moduleName": "./ui/blocks/src/blocks/Story.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/components/ArgsTable/ArgJsDoc.tsx",
+      "name": "./ui/blocks/src/components/ArgsTable/ArgJsDoc.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/blocks/src/components/ArgsTable/ArgRow.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/components/ArgsTable/ArgValue.tsx",
+      "name": "./ui/blocks/src/components/ArgsTable/ArgValue.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/blocks/src/components/ArgsTable/ArgRow.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/components/ArgsTable/ArgControl.tsx",
+      "name": "./ui/blocks/src/components/ArgsTable/ArgControl.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/blocks/src/components/ArgsTable/ArgRow.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/controls/options/Checkbox.tsx",
+      "name": "./ui/blocks/src/controls/options/Checkbox.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/blocks/src/controls/options/Options.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/controls/options/Radio.tsx",
+      "name": "./ui/blocks/src/controls/options/Radio.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/blocks/src/controls/options/Options.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/controls/options/Select.tsx",
+      "name": "./ui/blocks/src/controls/options/Select.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/blocks/src/controls/options/Options.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/components/src/components/shared/animation.ts",
+      "name": "./ui/components/src/components/shared/animation.ts",
+      "reasons": [
+        {
+          "moduleName": "./ui/components/src/components/Loader/Loader.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/components/src/components/Zoom/ZoomElement.tsx",
+      "name": "./ui/components/src/components/Zoom/ZoomElement.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/components/src/components/Zoom/Zoom.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/components/src/components/Zoom/ZoomIFrame.tsx",
+      "name": "./ui/components/src/components/Zoom/ZoomIFrame.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/components/src/components/Zoom/Zoom.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/controls/react-editable-json-tree/index.tsx",
+      "name": "./ui/blocks/src/controls/react-editable-json-tree/index.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/blocks/src/controls/Object.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/components/ArgsTable/Skeleton.tsx",
+      "name": "./ui/blocks/src/components/ArgsTable/Skeleton.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/blocks/src/components/ArgsTable/ArgsTable.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/components/ArgsTable/Empty.tsx",
+      "name": "./ui/blocks/src/components/ArgsTable/Empty.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/blocks/src/components/ArgsTable/ArgsTable.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/components/src/components/bar/button.tsx",
+      "name": "./ui/components/src/components/bar/button.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/components/src/components/tabs/tabs.tsx"
+        },
+        {
+          "moduleName": "./ui/components/src/components/tabs/tabs.hooks.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/components/src/components/bar/bar.tsx",
+      "name": "./ui/components/src/components/bar/bar.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/components/src/components/tabs/tabs.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/components/src/components/tabs/tabs.helpers.tsx",
+      "name": "./ui/components/src/components/tabs/tabs.helpers.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/components/src/components/tabs/tabs.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/components/src/components/tabs/tabs.hooks.tsx",
+      "name": "./ui/components/src/components/tabs/tabs.hooks.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/components/src/components/tabs/tabs.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/components/src/components/syntaxhighlighter/syntaxhighlighter.tsx",
+      "name": "./ui/components/src/components/syntaxhighlighter/syntaxhighlighter.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/components/src/components/syntaxhighlighter/lazy-syntaxhighlighter.tsx"
+        },
+        {
+          "moduleName": "./ui/components/src/components/syntaxhighlighter/lazy-syntaxhighlighter.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/components/src/components/syntaxhighlighter/formatter.ts",
+      "name": "./ui/components/src/components/syntaxhighlighter/formatter.ts",
+      "reasons": [
+        {
+          "moduleName": "./ui/components/src/components/syntaxhighlighter/lazy-syntaxhighlighter.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/manager/src/components/hooks/useMedia.tsx",
+      "name": "./ui/manager/src/components/hooks/useMedia.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/manager/src/components/layout/LayoutProvider.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/manager/src/constants.ts",
+      "name": "./ui/manager/src/constants.ts",
+      "reasons": [
+        {
+          "moduleName": "./ui/manager/src/components/layout/LayoutProvider.tsx"
+        },
+        {
+          "moduleName": "./ui/manager/src/components/layout/Layout.tsx"
+        },
+        {
+          "moduleName": "./ui/manager/src/components/notifications/NotificationList.tsx"
+        },
+        {
+          "moduleName": "./ui/manager/src/components/sidebar/Sidebar.tsx"
+        },
+        {
+          "moduleName": "./ui/manager/src/components/mobile/about/MobileAbout.tsx"
+        },
+        {
+          "moduleName": "./ui/manager/src/components/upgrade/UpgradeBlock.tsx"
+        },
+        {
+          "moduleName": "./ui/manager/src/components/mobile/navigation/MobileMenuDrawer.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/manager/src/components/layout/useDragging.ts",
+      "name": "./ui/manager/src/components/layout/useDragging.ts",
+      "reasons": [
+        {
+          "moduleName": "./ui/manager/src/components/layout/Layout.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/manager/src/container/Notifications.tsx",
+      "name": "./ui/manager/src/container/Notifications.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/manager/src/components/layout/Layout.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/manager/src/components/mobile/navigation/MobileMenuDrawer.tsx",
+      "name": "./ui/manager/src/components/mobile/navigation/MobileMenuDrawer.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/manager/src/components/mobile/navigation/MobileNavigation.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/manager/src/components/mobile/navigation/MobileAddonsDrawer.tsx",
+      "name": "./ui/manager/src/components/mobile/navigation/MobileAddonsDrawer.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/manager/src/components/mobile/navigation/MobileNavigation.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/manager/src/provider.ts",
+      "name": "./ui/manager/src/provider.ts",
+      "reasons": [
+        {
+          "moduleName": "./ui/manager/src/FakeProvider.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/manager/src/components/sidebar/useHighlighted.ts",
+      "name": "./ui/manager/src/components/sidebar/useHighlighted.ts",
+      "reasons": [
+        {
+          "moduleName": "./ui/manager/src/components/sidebar/Explorer.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/manager/src/components/sidebar/Brand.tsx",
+      "name": "./ui/manager/src/components/sidebar/Brand.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/manager/src/components/sidebar/Heading.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/manager/src/components/sidebar/useLastViewed.ts",
+      "name": "./ui/manager/src/components/sidebar/useLastViewed.ts",
+      "reasons": [
+        {
+          "moduleName": "./ui/manager/src/components/sidebar/Sidebar.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/manager/src/components/sidebar/types.ts",
+      "name": "./ui/manager/src/components/sidebar/types.ts",
+      "reasons": [
+        {
+          "moduleName": "./ui/manager/src/components/sidebar/SearchResults.tsx"
+        },
+        {
+          "moduleName": "./ui/manager/src/components/sidebar/Search.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/manager/src/keybinding.ts",
+      "name": "./ui/manager/src/keybinding.ts",
+      "reasons": [
+        {
+          "moduleName": "./ui/manager/src/components/sidebar/SearchResults.tsx"
+        },
+        {
+          "moduleName": "./ui/manager/src/components/sidebar/useHighlighted.ts"
+        },
+        {
+          "moduleName": "./ui/manager/src/components/sidebar/useExpanded.ts"
+        }
+      ]
+    },
+    {
+      "id": "./ui/manager/src/utils/status.tsx",
+      "name": "./ui/manager/src/utils/status.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/manager/src/components/sidebar/SearchResults.tsx"
+        },
+        {
+          "moduleName": "./ui/manager/src/components/sidebar/Search.tsx"
+        },
+        {
+          "moduleName": "./ui/manager/src/components/sidebar/Tree.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/manager/src/components/preview/utils/components.ts",
+      "name": "./ui/manager/src/components/preview/utils/components.ts",
+      "reasons": [
+        {
+          "moduleName": "./ui/manager/src/components/preview/Preview.tsx"
+        },
+        {
+          "moduleName": "./ui/manager/src/components/preview/Wrappers.tsx"
+        },
+        {
+          "moduleName": "./ui/manager/src/components/preview/Toolbar.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/manager/src/components/preview/tools/zoom.tsx",
+      "name": "./ui/manager/src/components/preview/tools/zoom.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/manager/src/components/preview/Preview.tsx"
+        },
+        {
+          "moduleName": "./ui/manager/src/components/preview/Toolbar.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/manager/src/components/preview/Wrappers.tsx",
+      "name": "./ui/manager/src/components/preview/Wrappers.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/manager/src/components/preview/Preview.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/manager/src/components/preview/Toolbar.tsx",
+      "name": "./ui/manager/src/components/preview/Toolbar.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/manager/src/components/preview/Preview.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/manager/src/components/preview/FramesRenderer.tsx",
+      "name": "./ui/manager/src/components/preview/FramesRenderer.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/manager/src/components/preview/Preview.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/manager/src/components/sidebar/RefBlocks.tsx",
+      "name": "./ui/manager/src/components/sidebar/RefBlocks.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/manager/src/components/sidebar/Refs.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/manager/src/components/sidebar/RefIndicator.tsx",
+      "name": "./ui/manager/src/components/sidebar/RefIndicator.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/manager/src/components/sidebar/Refs.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/manager/src/components/sidebar/components/CollapseIcon.tsx",
+      "name": "./ui/manager/src/components/sidebar/components/CollapseIcon.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/manager/src/components/sidebar/Refs.tsx"
+        },
+        {
+          "moduleName": "./ui/manager/src/components/sidebar/Tree.tsx"
+        },
+        {
+          "moduleName": "./ui/manager/src/components/sidebar/TreeNode.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/components/ArgsTable/types.ts",
+      "name": "./ui/blocks/src/components/ArgsTable/types.ts",
+      "reasons": [
+        {
+          "moduleName": "./ui/blocks/src/components/ArgsTable/index.ts"
+        }
+      ]
+    },
+    {
+      "id": "./ui/manager/src/components/sidebar/useExpanded.ts",
+      "name": "./ui/manager/src/components/sidebar/useExpanded.ts",
+      "reasons": [
+        {
+          "moduleName": "./ui/manager/src/components/sidebar/Tree.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/blocks/Subheading.tsx",
+      "name": "./ui/blocks/src/blocks/Subheading.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/blocks/src/blocks/DocsStory.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/controls/react-editable-json-tree/JsonNodes.tsx",
+      "name": "./ui/blocks/src/controls/react-editable-json-tree/JsonNodes.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/blocks/src/controls/react-editable-json-tree/index.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/controls/react-editable-json-tree/utils/styles.ts",
+      "name": "./ui/blocks/src/controls/react-editable-json-tree/utils/styles.ts",
+      "reasons": [
+        {
+          "moduleName": "./ui/blocks/src/controls/react-editable-json-tree/index.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/controls/react-editable-json-tree/types/deltaTypes.ts",
+      "name": "./ui/blocks/src/controls/react-editable-json-tree/types/deltaTypes.ts",
+      "reasons": [
+        {
+          "moduleName": "./ui/blocks/src/controls/react-editable-json-tree/index.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/controls/react-editable-json-tree/JsonNodes.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/controls/react-editable-json-tree/utils/objectTypes.ts",
+      "name": "./ui/blocks/src/controls/react-editable-json-tree/utils/objectTypes.ts",
+      "reasons": [
+        {
+          "moduleName": "./ui/blocks/src/controls/react-editable-json-tree/index.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/controls/react-editable-json-tree/JsonNodes.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/controls/react-editable-json-tree/types/dataTypes.ts",
+      "name": "./ui/blocks/src/controls/react-editable-json-tree/types/dataTypes.ts",
+      "reasons": [
+        {
+          "moduleName": "./ui/blocks/src/controls/react-editable-json-tree/index.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/controls/react-editable-json-tree/JsonNodes.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/controls/react-editable-json-tree/types/inputUsageTypes.ts",
+      "name": "./ui/blocks/src/controls/react-editable-json-tree/types/inputUsageTypes.ts",
+      "reasons": [
+        {
+          "moduleName": "./ui/blocks/src/controls/react-editable-json-tree/index.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/controls/react-editable-json-tree/JsonNodes.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/controls/react-editable-json-tree/utils/parse.ts",
+      "name": "./ui/blocks/src/controls/react-editable-json-tree/utils/parse.ts",
+      "reasons": [
+        {
+          "moduleName": "./ui/blocks/src/controls/react-editable-json-tree/index.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/controls/index.tsx",
+      "name": "./ui/blocks/src/controls/index.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/blocks/src/components/ArgsTable/ArgControl.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/controls/options/helpers.ts",
+      "name": "./ui/blocks/src/controls/options/helpers.ts",
+      "reasons": [
+        {
+          "moduleName": "./ui/blocks/src/controls/options/Radio.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/controls/options/Checkbox.tsx"
+        },
+        {
+          "moduleName": "./ui/blocks/src/controls/options/Select.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/manager/src/components/preview/tools/copy.tsx",
+      "name": "./ui/manager/src/components/preview/tools/copy.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/manager/src/components/preview/Toolbar.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/manager/src/components/preview/tools/eject.tsx",
+      "name": "./ui/manager/src/components/preview/tools/eject.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/manager/src/components/preview/Toolbar.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/manager/src/components/preview/tools/menu.tsx",
+      "name": "./ui/manager/src/components/preview/tools/menu.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/manager/src/components/preview/Toolbar.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/manager/src/components/preview/tools/addons.tsx",
+      "name": "./ui/manager/src/components/preview/tools/addons.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/manager/src/components/preview/Toolbar.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/manager/src/components/preview/tools/remount.tsx",
+      "name": "./ui/manager/src/components/preview/tools/remount.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/manager/src/components/preview/Toolbar.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/manager/src/components/preview/utils/stringifyQueryParams.tsx",
+      "name": "./ui/manager/src/components/preview/utils/stringifyQueryParams.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/manager/src/components/preview/FramesRenderer.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/manager/src/components/sidebar/Loader.tsx",
+      "name": "./ui/manager/src/components/sidebar/Loader.tsx",
+      "reasons": [
+        {
+          "moduleName": "./ui/manager/src/components/sidebar/RefBlocks.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/controls/types.ts",
+      "name": "./ui/blocks/src/controls/types.ts",
+      "reasons": [
+        {
+          "moduleName": "./ui/blocks/src/controls/index.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./ui/blocks/src/controls/options/index.ts",
+      "name": "./ui/blocks/src/controls/options/index.ts",
+      "reasons": [
+        {
+          "moduleName": "./ui/blocks/src/controls/index.tsx"
+        }
+      ]
+    }
+  ]
+}

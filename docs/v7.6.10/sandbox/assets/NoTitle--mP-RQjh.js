@@ -1,0 +1,2 @@
+import{j as n}from"./jsx-runtime-vNq4Oc-g.js";import{useMDXComponents as s}from"./index-_VGcpBFS.js";import"./index-4g5l5LRQ.js";import"./_commonjsHelpers-4gQjN7DL.js";function o(t){const e=Object.assign({h1:"h1",p:"p"},s(),t.components);return n.jsxs(n.Fragment,{children:[n.jsx(e.h1,{id:"unattached-docs-with-no-title",children:"Unattached docs with no title"}),`
+`,n.jsx(e.p,{children:"hello docs"})]})}function d(t={}){const{wrapper:e}=Object.assign({},s(),t.components);return e?n.jsx(e,Object.assign({},t,{children:n.jsx(o,t)})):o(t)}export{d as default};

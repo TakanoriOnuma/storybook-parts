@@ -1,0 +1,5 @@
+import{j as t}from"./jsx-runtime-vNq4Oc-g.js";import"./chunk-LGNCEDN7-7c1_je2U.js";import{M as s,b as e,e as m}from"./index-SI0LUyuR.js";import{B as a,a as p}from"./button.stories-ewbrUa2C.js";import{useMDXComponents as i}from"./index-_VGcpBFS.js";import"./index-4g5l5LRQ.js";import"./_commonjsHelpers-4gQjN7DL.js";import"./iframe-FAgxMMso.js";import"../sb-preview/runtime.js";import"./react-18-lltdPBKk.js";import"./index-jmm5gWkb.js";import"./index-ogXoivrg.js";import"./_baseAssignValue-4juvjRQC.js";import"./_baseIsEqual-PxA6pT60.js";import"./index-3pcJpBy2.js";import"./_basePickBy-4UcAiG3n.js";import"./uniq-Ixv-64YA.js";import"./index-PPLHz8o0.js";function r(o){const n=Object.assign({h1:"h1",p:"p"},i(),o.components);return t.jsxs(t.Fragment,{children:[t.jsx(s,{of:a,name:"Doc Name"}),`
+`,t.jsx(n.h1,{id:"docs-with-of-and-name",children:"Docs with of, and name"}),`
+`,t.jsx(n.p,{children:"hello docs"}),`
+`,t.jsx(e,{of:p}),`
+`,t.jsx(m,{})]})}function y(o={}){const{wrapper:n}=Object.assign({},i(),o.components);return n?t.jsx(n,Object.assign({},o,{children:t.jsx(r,o)})):r(o)}export{y as default};

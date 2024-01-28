@@ -1,0 +1,4 @@
+import{j as t}from"./jsx-runtime-vNq4Oc-g.js";import"./chunk-LGNCEDN7-SpUF8xBK.js";import{M as e,f as m}from"./index-wS29sfn3.js";import{useMDXComponents as r}from"./index-F1vdPnb0.js";import"./index-4g5l5LRQ.js";import"./_commonjsHelpers-4gQjN7DL.js";import"./iframe-Kaf2ZuH_.js";import"../sb-preview/runtime.js";import"./react-18-lltdPBKk.js";import"./index-jmm5gWkb.js";import"./index-ogXoivrg.js";import"./_baseAssignValue-XAMtle1o.js";import"./index-8GgK5xmv.js";import"./_basePickBy-gBSjytaL.js";import"./index-PPLHz8o0.js";function n(o){const i={h1:"h1",p:"p",...r(),...o.components};return t.jsxs(t.Fragment,{children:[t.jsx(e,{title:"Yabbadabbadooo"}),`
+`,t.jsx(i.h1,{id:"docs-with-title",children:"Docs with title"}),`
+`,t.jsx(m,{children:"Subtitle"}),`
+`,t.jsx(i.p,{children:"hello docs"})]})}function C(o={}){const{wrapper:i}={...r(),...o.components};return i?t.jsx(i,{...o,children:t.jsx(n,{...o})}):n(o)}export{C as default};

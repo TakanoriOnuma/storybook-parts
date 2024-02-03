@@ -1,0 +1,24 @@
+import{w as T}from"./index-1c0ca390.js";import{j as o,a as C,F as D}from"./jsx-runtime-0f39435c.js";import{r as S}from"./index-6f814c40.js";import{T as P,S as w}from"./DocsPage-62b67e98.js";import{D as b}from"./DocsContext-001c90b3.js";import{D as u}from"./Description-37e083f0.js";import{P as E}from"./Primary-4adfe4f8.js";import{C as N}from"./Controls-25fc0eda.js";import{S as v}from"./Stories-a8162890.js";import{u as O}from"./useOf-fa9945b9.js";import"./index-341540c2.js";import"./index-d475d2ea.js";import"./lz-string-475d838e.js";import"./index-df581bf3.js";import"./_commonjsHelpers-042e6b4d.js";import"./index-356e4a49.js";import"./index-90790cc0.js";import"./iframe-5727660f.js";import"../sb-preview/runtime.js";import"./index-5a529529.js";import"./index-6de6b113.js";import"./bundle.esm-5f0471b5.js";import"./index-569f0cbf.js";import"./polished.esm-ebce2d70.js";import"./extends-98964cd2.js";import"./index-74303de9.js";import"./mapValues-511dc51c.js";import"./_baseAssignValue-531dc4d6.js";import"./_getTag-17cccba0.js";import"./isObjectLike-dbd718f5.js";import"./_baseIteratee-11045650.js";import"./_baseIsEqual-a479ac5d.js";import"./isSymbol-de103834.js";import"./Markdown-3259d281.js";import"./index.modern-19ef23af.js";import"./Source-d9d734f3.js";import"./EmptyBlock-6324a57c.js";import"./DocsStory-83af1a8b.js";import"./Anchor-45f4b247.js";import"./Canvas-19a6efbf.js";import"./Preview-8b59dcd4.js";import"./Story-134a3f6e.js";import"./BlockBackgroundStyles-d227aefd.js";import"./Source-8ef45ad9.js";import"./index-ee3f53bc.js";import"./useStory-cba48327.js";import"./Story-8b49808a.js";import"./ArgsTable-34b95858.js";import"./pickBy-8b4999ba.js";import"./_basePickBy-ac4ea461.js";import"./keysIn-d555f552.js";import"./_getPrototype-d314cec2.js";import"./cloneDeep-3d0d33b0.js";import"./uniq-b081afc0.js";import"./Object-950eb0de.js";import"./helpers-a9e07cde.js";import"./Boolean-e61cc435.js";import"./Date-9ddd79e5.js";import"./Number-f757122c.js";import"./Options-63a51cd8.js";import"./Range-5f4dada3.js";import"./Text-bd1d2593.js";import"./Files-c803fcc6.js";const I=/\s*\/\s*/,p=t=>{const e=t.trim().split(I);return e&&e[e.length-1]||t},n=({children:t})=>{const e=S.useContext(b),r=t||p(e.storyById().title);return r?o(P,{className:"sbdocs-title sb-unstyled",children:r}):null};try{p.displayName="extractTitle",p.__docgenInfo={description:"",displayName:"extractTitle",props:{}}}catch{}try{n.displayName="Title",n.__docgenInfo={description:"",displayName:"Title",props:{}}}catch{}const m=({children:t})=>{const e=S.useContext(b),{parameters:r}=e.storyById(),s=t||(r==null?void 0:r.componentSubtitle);return s?o(w,{className:"sbdocs-subtitle sb-unstyled",children:s}):null};try{m.displayName="Subtitle",m.__docgenInfo={description:"",displayName:"Subtitle",props:{}}}catch{}const c=()=>{const t=O("meta",["meta"]),{stories:e}=t.csfFile,r=Object.keys(e).length===1;return C(D,{children:[o(n,{}),o(m,{}),o(u,{of:"meta"}),r?o(u,{of:"story"}):null,o(E,{}),o(N,{}),r?null:o(v,{})]})};try{c.displayName="DocsPage",c.__docgenInfo={description:"",displayName:"DocsPage",props:{}}}catch{}const $t={component:c,parameters:{docsStyles:!0}},a={parameters:{relativeCsfPaths:["../examples/Button.stories"]},play:async({canvasElement:t})=>{var l,d;const s=(d=(l=(await T(t).findByText("How large should the button be?")).parentElement)==null?void 0:l.parentElement)==null?void 0:d.parentElement;if((s==null?void 0:s.nodeName)==="TR")s.setAttribute("data-chromatic","ignore");else throw new Error("the DOM structure changed, please update this test")}},i={...a,parameters:{relativeCsfPaths:["../examples/DocsPageParameters.stories"]}};var y,_,f;a.parameters={...a.parameters,docs:{...(y=a.parameters)==null?void 0:y.docs,source:{originalSource:`{
+  parameters: {
+    relativeCsfPaths: ['../examples/Button.stories']
+  },
+  play: async ({
+    canvasElement
+  }) => {
+    // This play function's sole purpose is to add a "chromatic ignore" region to a flaky row.
+    const canvas = within(canvasElement);
+    const sizeCell = await canvas.findByText('How large should the button be?');
+    const sizeRow = sizeCell.parentElement?.parentElement?.parentElement;
+    if (sizeRow?.nodeName === 'TR') {
+      sizeRow.setAttribute('data-chromatic', 'ignore');
+    } else {
+      throw new Error('the DOM structure changed, please update this test');
+    }
+  }
+}`,...(f=(_=a.parameters)==null?void 0:_.docs)==null?void 0:f.source}}};var h,g,x;i.parameters={...i.parameters,docs:{...(h=i.parameters)==null?void 0:h.docs,source:{originalSource:`{
+  ...Default,
+  parameters: {
+    relativeCsfPaths: ['../examples/DocsPageParameters.stories']
+  }
+}`,...(x=(g=i.parameters)==null?void 0:g.docs)==null?void 0:x.source}}};const Kt=["Default","SingleStory"];export{a as Default,i as SingleStory,Kt as __namedExportsOrder,$t as default};
+//# sourceMappingURL=DocsPage.stories-4dbd735b.js.map

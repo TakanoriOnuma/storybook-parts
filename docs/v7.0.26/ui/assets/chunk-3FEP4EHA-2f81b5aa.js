@@ -1,0 +1,2 @@
+import{c as n,a as i}from"./chunk-CSVBMRUK-183fa11f.js";var f=(...s)=>{let r=n,t=s;t.length===1&&Array.isArray(t[0])&&([t]=t),t.length!==1&&typeof t[t.length-1]!="string"&&(r={...n,...t.pop()});let e=t[0];(t.length!==1||typeof e=="string")&&(e={},t.forEach(o=>{e[o]=o}));const a={};return Object.keys(e).forEach(o=>{a[o]=i(e[o],r)}),a};export{f as a};
+//# sourceMappingURL=chunk-3FEP4EHA-2f81b5aa.js.map

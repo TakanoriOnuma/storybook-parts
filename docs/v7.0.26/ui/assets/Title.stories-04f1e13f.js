@@ -1,0 +1,6 @@
+import{e as s}from"./index-5a529529.js";import{w as p}from"./index-90790cc0.js";import"./index-d475d2ea.js";import"./index-6f814c40.js";import"./_commonjsHelpers-042e6b4d.js";import"./iframe-5727660f.js";import"../sb-preview/runtime.js";import"./index-6de6b113.js";import"./bundle.esm-5f0471b5.js";import"./index-569f0cbf.js";const n=600,r=s.h1(p,({theme:e})=>({color:e.color.defaultText,fontSize:e.typography.size.m3,fontWeight:e.typography.weight.bold,lineHeight:"32px",[`@media (min-width: ${n}px)`]:{fontSize:e.typography.size.l1,lineHeight:"36px",marginBottom:"16px"}}));try{r.displayName="Title",r.__docgenInfo={description:"",displayName:"Title",props:{theme:{defaultValue:null,description:"",name:"theme",required:!1,type:{name:"Theme"}},as:{defaultValue:null,description:"",name:"as",required:!1,type:{name:"ElementType<any>"}}}}}catch{}const x={component:r},t={args:{children:"Basic title"}};var o,i,a;t.parameters={...t.parameters,docs:{...(o=t.parameters)==null?void 0:o.docs,source:{originalSource:`{
+  args: {
+    children: 'Basic title'
+  }
+}`,...(a=(i=t.parameters)==null?void 0:i.docs)==null?void 0:a.source}}};const T=["Basic"];export{t as Basic,T as __namedExportsOrder,x as default};
+//# sourceMappingURL=Title.stories-04f1e13f.js.map

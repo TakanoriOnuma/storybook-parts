@@ -1,0 +1,13 @@
+import{j as l}from"./jsx-runtime-0f39435c.js";import{r as S}from"./index-6f814c40.js";import{a as e}from"./chunk-CSVBMRUK-183fa11f.js";import{P as r}from"./panel-36ec9dab.js";import{p as f,s as c}from"./app.mockdata-7991a323.js";import"./_commonjsHelpers-042e6b4d.js";import"./index-90790cc0.js";import"./iframe-5727660f.js";import"../sb-preview/runtime.js";import"./index-5a529529.js";import"./index-d475d2ea.js";import"./index-6de6b113.js";import"./bundle.esm-5f0471b5.js";import"./index-569f0cbf.js";import"./index-f8624f6f.js";import"./_getTag-17cccba0.js";import"./isObjectLike-dbd718f5.js";import"./_baseAssignValue-531dc4d6.js";import"./mapValues-511dc51c.js";import"./_baseIteratee-11045650.js";import"./_baseIsEqual-a479ac5d.js";import"./isSymbol-de103834.js";import"./keysIn-d555f552.js";import"./_getPrototype-d314cec2.js";import"./isPlainObject-9af51d09.js";import"./index-ee3f53bc.js";import"./isEqual-09b8ceb9.js";import"./index-356e4a49.js";import"./_basePickBy-ac4ea461.js";import"./index-a0fdfe9c.js";import"./chunk-P672VJMD-915057e7.js";import"./index-df581bf3.js";import"./Sidebar-d535dffb.js";import"./Heading-43200e6c.js";import"./Menu-cd6fe8ee.js";import"./polished.esm-ebce2d70.js";import"./extends-98964cd2.js";import"./HighlightStyles-bdd60786.js";import"./throttle-f41f6282.js";import"./index-4d501b15.js";import"./preview-531174bb.js";import"./index-b6572a53.js";import"./index-4766af88.js";import"./iframe-9af5328f.js";const b=e("onSelect"),u=e("toggleVisibility"),g=e("togglePosition"),mt={title:"Panel",component:r},t=()=>{const[P,d]=S.useState("test2");return l(r,{absolute:!1,panels:f,actions:{onSelect:d,toggleVisibility:u,togglePosition:g},selectedPanel:P,shortcuts:c})},o=()=>l(r,{panels:{},actions:{onSelect:b,toggleVisibility:u,togglePosition:g},shortcuts:c});var s,i,p;t.parameters={...t.parameters,docs:{...(s=t.parameters)==null?void 0:s.docs,source:{originalSource:`() => {
+  const [selectedPanel, setSelectedPanel] = useState('test2');
+  return <Panel absolute={false} panels={panels} actions={{
+    onSelect: setSelectedPanel,
+    toggleVisibility,
+    togglePosition
+  }} selectedPanel={selectedPanel} shortcuts={shortcuts} />;
+}`,...(p=(i=t.parameters)==null?void 0:i.docs)==null?void 0:p.source}}};var a,n,m;o.parameters={...o.parameters,docs:{...(a=o.parameters)==null?void 0:a.docs,source:{originalSource:`() => <Panel panels={{}} actions={{
+  onSelect,
+  toggleVisibility,
+  togglePosition
+}} shortcuts={shortcuts} />`,...(m=(n=o.parameters)==null?void 0:n.docs)==null?void 0:m.source}}};const lt=["Default","NoPanels"];export{t as Default,o as NoPanels,lt as __namedExportsOrder,mt as default};
+//# sourceMappingURL=panel.stories-ade75880.js.map

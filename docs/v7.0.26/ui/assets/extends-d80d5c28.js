@@ -1,0 +1,2 @@
+var r={},o={get exports(){return r},set exports(t){r=t}},x;function i(){return x||(x=1,function(t){function e(){return t.exports=e=Object.assign?Object.assign.bind():function(p){for(var s=1;s<arguments.length;s++){var n=arguments[s];for(var a in n)Object.prototype.hasOwnProperty.call(n,a)&&(p[a]=n[a])}return p},t.exports.__esModule=!0,t.exports.default=t.exports,e.apply(this,arguments)}t.exports=e,t.exports.__esModule=!0,t.exports.default=t.exports}(o)),r}export{i as r};
+//# sourceMappingURL=extends-d80d5c28.js.map
